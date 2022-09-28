@@ -1,0 +1,24 @@
+@import "reset.css";
+@import "variables.css";
+@import "navigationbar.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&display=swap");
+
+body {
+  background-color: aliceblue;
+  font-family: "Sora", sans-serif;
+}
+
+.container {
+  display: flex;
+  width: 90%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
