@@ -55,6 +55,10 @@
   font-size: 20px;
   font-weight: 400;
 }
+.navbar__info a:hover {
+  color: teal;
+  transition: 1s;
+}
 @media (max-width: 768px) {
   .navbar__info {
     display: none;
@@ -92,9 +96,9 @@
     margin-left: 10px;
   }
   .navbar__mobile button:hover {
-    background-color: turquoise;
+    background-color: teal;
     color: aliceblue;
-    border: 1px solid turquoise;
+    border: 1px solid teal;
     transition: 1s;
   }
 
@@ -121,7 +125,7 @@
     color: aliceblue;
   }
   .navbar__mobile__info a:hover {
-    color: turquoise;
+    color: teal;
     transition: 1s;
   }
 }
