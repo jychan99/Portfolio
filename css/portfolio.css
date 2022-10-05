@@ -1,0 +1,48 @@
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: aliceblue;
+  background-color: rgb(113, 140, 181);
+}
+
+.portfolio__header {
+  text-align: center;
+  width: 330px;
+  font-size: 45px;
+  font-weight: 600;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  letter-spacing: 5px;
+  padding: 30px 0px;
+  border-bottom: 3px solid aliceblue;
+}
+@media (min-width: 768px) {
+  .portfolio__header {
+    width: 450px;
+    letter-spacing: 15px;
+  }
+}
+
+.portfolio__container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 800px;
+}
+@media (min-width: 768px) {
+  .portfolio__container {
+    float: left;
+  }
+}
+
+.portfolio__container-project {
+  margin: 0px 15px 15px 15px;
+  width: 20%;
+  height: 30%;
+  background-color: tomato;
+}
+@media (min-width: 768px) {
+  .portfolio__container-project {
+    margin-bottom: 30px;
+  }
+}

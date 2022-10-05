@@ -1,6 +1,6 @@
 header {
-  text-align: center;
-  background-color: teal;
+  text-align: ;
+  background-color: rgb(113, 140, 181);
 }
 
 .header__container {
@@ -15,12 +15,12 @@ header {
   justify-content: center;
   align-items: center;
   padding-top: 140px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 @media (min-width: 768px) {
   .header__profile {
     padding-top: 200px;
-    padding-bottom: 80px;
+    padding-bottom: 200px;
   }
 }
 
