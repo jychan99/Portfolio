@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   color: aliceblue;
-  background-color: rgb(113, 140, 181);
+  background-color: var(--myblue);
 }
 
 .portfolio__header {
@@ -26,23 +26,31 @@
 
 .portfolio__container {
   display: flex;
-  flex-wrap: wrap;
-  height: 800px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
 }
 @media (min-width: 768px) {
   .portfolio__container {
-    float: left;
+    justify-content: flex-start;
   }
 }
 
 .portfolio__container-project {
-  margin: 0px 15px 15px 15px;
-  width: 20%;
-  height: 30%;
-  background-color: tomato;
+  width: 350px;
+  height: 350px;
+  margin: 50px 15px;
+  background-color: aliceblue;
 }
 @media (min-width: 768px) {
   .portfolio__container-project {
-    margin-bottom: 30px;
+    width: 30%;
+    height: fit-content;
   }
+}
+.portfolio__container-project img {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
 }
