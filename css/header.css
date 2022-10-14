@@ -1,6 +1,6 @@
 header {
   text-align: ;
-  background-color: rgb(113, 140, 181);
+  background-color: var(--primaryblue);
 }
 
 .header__container {

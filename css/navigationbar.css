@@ -56,7 +56,7 @@
   font-weight: 400;
 }
 .navbar__info a:hover {
-  color: rgb(113, 140, 181);
+  color: var(--primaryblue);
   transition: 1s;
 }
 @media (max-width: 768px) {
@@ -96,9 +96,9 @@
     margin-left: 10px;
   }
   .navbar__mobile button:hover {
-    background-color: rgb(113, 140, 181);
+    background-color: var(--primaryblue);
     color: aliceblue;
-    border: 1px solid rgb(113, 140, 181);
+    border: 1px solid var(--primaryblue);
     transition: 1s;
   }
 
@@ -125,7 +125,7 @@
     color: aliceblue;
   }
   .navbar__mobile__info a:hover {
-    color: rgb(113, 140, 181);
+    color: var(--primaryblue);
     transition: 1s;
   }
 }
