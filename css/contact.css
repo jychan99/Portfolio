@@ -28,6 +28,11 @@
   padding-bottom: 80px;
 }
 
+.gform {
+  display: flex;
+  flex-direction: column;
+}
+
 .copyright {
   display: flex;
   justify-content: center;

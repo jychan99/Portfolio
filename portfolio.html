@@ -139,7 +139,47 @@
         <span>CONTACT</span>
       </div>
       <div class="contact__container">
-        <div class="contact__mail"></div>
+        <form
+          class="gform"
+          method="post"
+          data-email="star2121513@naver.com"
+          action="https://script.google.com/macros/s/AKfycbz8ViDNtJQFYIyPlB9B1UcDD5_tEYEzVPvyANAdQg/exec"
+        >
+          <label>이름</label>
+          <input
+            name="name"
+            type="text"
+            placeholder="이름"
+            data-validation-required-message="이름을 입력하세요."
+          />
+
+          <label>연락처</label>
+          <input
+            name="phone"
+            type="tel"
+            placeholder="연락처"
+            data-validation-required-message="연락처를 입력하세요."
+          />
+
+          <label>이메일</label>
+          <input
+            name="email"
+            type="text"
+            placeholder="이메일"
+            data-validation-required-message="이메일을 입력하세요."
+          />
+
+          <label>내용</label>
+          <textarea
+            name="message"
+            rows="5"
+            placeholder="내용"
+            data-validation-required-message="내용을 입력하세요."
+            aria-invalid="false"
+          ></textarea>
+
+          <button type="submit">전송</button>
+        </form>
         <div>
           <a href="#">gmail/navermail</a>
           <a href="https://github.com/jychan99">github</a>
@@ -156,4 +196,5 @@
     ></script>
   </body>
   <script src="js/index.js"></script>
+  <script src="js/email.js"></script>
 </html>
