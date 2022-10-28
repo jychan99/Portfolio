@@ -1,0 +1,28 @@
+.modal__container {
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.fa-xmark {
+  font-size: 80px;
+  float: right;
+  cursor: pointer;
+}
+
+.portfolio__modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.portfolio__modal__pj1 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: 100%;
+  background-color: aliceblue;
+}
