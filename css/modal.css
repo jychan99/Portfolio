@@ -3,10 +3,14 @@
   padding-left: 30px;
   margin-right: auto;
   margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .fa-xmark {
+  position: absolute;
+  right: 30px;
   font-size: 80px;
-  float: right;
   cursor: pointer;
 }
 
@@ -23,6 +27,40 @@
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  height: 100%;
   background-color: aliceblue;
+}
+.modal__header {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 600;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  letter-spacing: 10px;
+  padding: 30px 0px;
+}
+
+.modal__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.modal__image img:first-child {
+  width: 300px;
+  height: auto;
+  margin: 5px;
+}
+.modal__image img:nth-child(2) {
+  width: 250px;
+  height: auto;
+  margin: 5px;
+}
+.modal__image img:nth-child(3) {
+  width: 250px;
+  height: auto;
+  margin: 5px;
+}
+
+.modal__description {
+  width: 70%;
 }
